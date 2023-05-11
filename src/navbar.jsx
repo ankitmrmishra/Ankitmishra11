@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { useRef } from 'react';
 import {AiOutlineBars } from 'react-icons/ai';
 import './css/navbar.css'
@@ -7,12 +7,9 @@ import './css/navbar.css'
 
 
 
- function navbar(){
+ function Navbar(){
     let refere = useRef();
-    let refer = useRef();
-    function rotate(){
-        refer.current.classList.toggle("bars-rotate");
-    }
+    
   function handleClick() {
     
  
@@ -21,7 +18,7 @@ import './css/navbar.css'
   }
   
     return(
-        <>
+        <Fragment>
         <nav>
             <div className="left--nav">
                 <img className="nav--logo"  src="https://download.logo.wine/logo/Ableton/Ableton-Logo.wine.png"  />
@@ -46,7 +43,7 @@ import './css/navbar.css'
          <AiOutlineBars className="bars" onClick={handleClick}  />
          
         </nav>
-        </>
+       </Fragment>
     )
 }
-export default navbar;
+export default Navbar;
