@@ -21,20 +21,18 @@ import './css/navbar.css'
         <Fragment>
         <nav>
             <div className="left--nav">
-                <img className="nav--logo"  src="https://download.logo.wine/logo/Ableton/Ableton-Logo.wine.png"  />
+                <span className="nav--logo">ANKIT</span>
                 </div>
                
         <div className="navlist">
             <ul className="abs" ref={refere}>
-                <li>Live</li>
-                <li>Push</li>
-                <li>Note</li>
-                <li>Link</li>
-                <li>Shop</li>
-                <li>Packs</li>
-                <li>Help</li>
-                <li className="more">More+</li>
-                <AiOutlineBars className="bars bars-rotate" onClick={handleClick}  />
+                <li>PORTFOLIO</li>
+                <li>ABOUT</li>
+                <li>BLOGS</li>
+                <li>CONTACT ME</li>
+      
+              
+               
             </ul>
              
         </div>
