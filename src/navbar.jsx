@@ -26,10 +26,10 @@ import './css/navbar.css'
                
         <div className="navlist">
             <ul className="abs" ref={refere}>
-                <li>PORTFOLIO</li>
-                <li>ABOUT</li>
-                <li>BLOGS</li>
-                <li>CONTACT ME</li>
+                <li className="li-item">PORTFOLIO</li>
+                <li className="li-item" >ABOUT</li>
+                <li className="li-item">BLOGS</li>
+                <li className="li-item">CONTACT ME</li>
       
               
                
