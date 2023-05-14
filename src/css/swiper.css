@@ -1,0 +1,57 @@
+.product-carousel {
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+    background-color: springgreen;
+    text-align: center;
+}
+.product-carousel > h1{
+color: #162541;
+}
+
+.product-container {
+    padding: -2rem;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.pre-btn,
+.next-btn {
+   
+    border: none;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.next-btn {
+    right: 0;
+}
+
+.next-btn p,
+.pre-btn p {
+    font-size: 50px;
+    background-color: springgreen;
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+@media screen and (max-width:800px) {
+    .next-btn  {
+top: 37%;
+        right: 2rem;
+    }
+    .pre-btn{
+        top: 37%;
+            left: 2rem;
+    }
+}

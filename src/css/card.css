@@ -1,0 +1,71 @@
+*{
+    padding: 0;margin: 0; box-sizing: border-box;
+}
+.card{
+    background-color: #162541;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 10px;
+   width: 100%;
+  
+    
+}
+.img--part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img--part span{
+    color: #f66030;
+    height:22rem ;
+margin-bottom: 10px;
+   font-family: monospace;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    opacity: 0 ;
+    background-color: #162541;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: opacity 1s linear;
+}
+.img--part span:hover{
+ opacity: 0.8; 
+   transition: opacity 400ms linear;
+}
+.card img{
+    margin-bottom: 0.7rem;
+    width: 20rem;
+    height: 22rem;
+    border-radius: 10px;
+}
+.project--description{
+text-align: center;
+    color: #f66030;
+}
+.project--description a{
+ 
+    padding: 0.7rem;
+    font-size: 2rem;
+}
+
+.details{
+    position: relative;
+    background-color: azure;
+    width: 20rem;
+  
+
+}
+
+@media screen and (max-width:800px) {
+    .card{
+       padding: 1rem;
+        margin: 0rem;
+    }
+}
