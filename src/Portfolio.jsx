@@ -60,7 +60,7 @@ const Imagecarousel = () => {
         
         <div className="product-carousel">
 
-<h1>
+<h1 className='title'>
     SHOWCASE
 </h1>
 <span>  Step into my digital gallery and discover a visual feast of stunning web projects.</span>

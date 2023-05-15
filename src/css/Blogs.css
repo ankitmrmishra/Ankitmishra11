@@ -1,0 +1,10 @@
+.Blogs{
+    font-family: monospace;
+    text-align: center;
+    background-color: springgreen;
+    width: 100vw;
+}
+.Blogs > h1{
+    font-size: 3rem;
+
+}

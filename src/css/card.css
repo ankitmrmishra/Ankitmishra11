@@ -7,20 +7,22 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0.5rem;
+    padding: 0.2rem;
     margin: 1rem;
     border-radius: 10px;
-   width: 100%;
-  
+   width: 18rem;
+   height: 28rem;
+    transition: transform 1s;
     
 }
 .img--part{
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .img--part span{
-    color: #f66030;
+    color: #162541;
     height:22rem ;
 margin-bottom: 10px;
    font-family: monospace;
@@ -40,6 +42,7 @@ margin-bottom: 10px;
    transition: opacity 400ms linear;
 }
 .card img{
+    padding: 3rem;
     margin-bottom: 0.7rem;
     width: 20rem;
     height: 22rem;
@@ -47,7 +50,7 @@ margin-bottom: 10px;
 }
 .project--description{
 text-align: center;
-    color: #f66030;
+    color: aliceblue;
 }
 .project--description a{
  
@@ -56,11 +59,19 @@ text-align: center;
 }
 
 .details{
-    position: relative;
-    background-color: azure;
-    width: 20rem;
+    position: fixed;
+    background-color: #162541;
+   width: 15rem;
+   margin: -25rem -7.3rem;
+   color: white;
+   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 
+}
+.card:hover{
+    transform: scale(0.9);
+    transition: transform 1s;
 }
 
 @media screen and (max-width:800px) {

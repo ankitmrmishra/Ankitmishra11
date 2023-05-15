@@ -17,11 +17,11 @@ function Skills() {
      var settings = {
       dots: false,
       infinite: true,
-      slidesToShow: 5,
+      slidesToShow: 8,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 2000,
-      autoplaySpeed: 0,
+      speed: 1000,
+      autoplaySpeed: 100,
       cssEase: "linear",
        responsive: [
         {
@@ -54,7 +54,7 @@ function Skills() {
    return ( 
     <div className='skills'>
         <h1>SKILL SETS</h1>
-        <span>Let me introduce you with my weapons</span>
+        <span className='skills-span'>Let me introduce you with my weapons</span>
        
     
       <div>

@@ -22,7 +22,7 @@ width: 150%;
 overflow: hidden;
 margin-bottom: -8rem;
     padding: 2rem;
-    color: #f66030;
+    color: rgba(240, 248, 255, 0.619);
     font-family: monospace;
     font-size: 1.5rem;
     box-shadow: #f66030 0px 0px 0px 2px inset, #162541 10px -10px 0px -3px, rgb(0, 255, 127 ) 10px -10px;
