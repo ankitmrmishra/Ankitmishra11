@@ -1,0 +1,51 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+    background-color: springgreen;
+    padding: 1rem;
+}
+.socialmedia , .endingline {
+    width: 20%;
+    
+    color: #162541;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 3rem;
+    
+}
+.endingline{
+    font-family: monospace;
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+.heart{
+    margin-top: 5px;
+    color: red;
+}
+.myname{
+   font-weight: 800;
+    letter-spacing: 5px;
+}
+
+@media screen and (max-width:800px) {
+.footer{
+    color: springgreen;
+    background-color: #162541;
+    margin-top: -5rem;
+    text-align: center;
+}
+.socialmedia,
+.endingline {
+    color: springgreen;
+   justify-content: space-around;
+   width: 100%;
+}
+
+
+
+}
