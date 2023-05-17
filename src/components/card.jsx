@@ -14,7 +14,7 @@ const handleHover = () => {
     <>
 <div className="card"  >
     <div className="img--part">
-       showImage && <img src={image} alt="Project Image"  />
+        <img src={image} alt="Project Image"  />
       
    
     </div>

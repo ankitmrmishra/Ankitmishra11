@@ -6,6 +6,7 @@ import Header from './header.jsx'
 import Portfolio from './Portfolio.jsx'
 import Skills from './Skills.jsx'
 import Blogs from './Blogs.jsx'
+import { ContactUs } from './ContactME.jsx'
 import { render } from 'react-dom'
 
 
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
    <Portfolio/>
    <Skills/>
    <Blogs/>
+   <ContactUs/>
     </>
 
 

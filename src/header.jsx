@@ -2,7 +2,7 @@ import React , { useState } from 'react'
 import './css/header.css'
 import './css/mediaqueries.css'
 
-import MyImage from'./assets/WhatsApp Image 2023-05-12 at 17.33.17.jpg';
+import MyImage from './assets/portfolio/3d-business-young-woman-waving-her-hand-while-sitting-at-the-computer.png'
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 function header() {
 const [text, setText] = useState("ANKIT MISHRA");
@@ -62,7 +62,7 @@ const [text, setText] = useState("ANKIT MISHRA");
 
 </div>
 <div className="myimage">
-    <img src={MyImage} alt="my-phot"  />
+    <img src={MyImage} alt="my-phot" className='img-header'  />
 </div>
 
 

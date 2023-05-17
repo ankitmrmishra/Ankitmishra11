@@ -17,6 +17,7 @@ background-color: #f66030;
    width: 100vw;
 }
 .paragraph--div{
+    
 width: 150%;
 
 overflow: hidden;
@@ -61,26 +62,27 @@ position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 8rem;
     padding: 1rem;
     /* width: 90vw; */
     height: 100vh;
    
 }
 .myimage img{
-    box-shadow: rgba(0, 255, 128, 0.474) 0px 2px 4px, rgba(0, 255, 128, 0.386) 0px 2px 13px -3px, rgba(0, 255, 128, 0.401) 0px -1px 0px inset;
+    margin-top: 2rem;
+  
     transition: box-shadow 500ms;
-    width:80vw ;
-    border: springgreen 2px solid;
-    filter: blur(1px);
+   
+    height: 20rem;
+
+    transition: transform 1s;
 }
 
-
-.myimage img:hover{
-box-shadow: rgba(0, 255, 128, 0.323) 0px 10px 10px 4px;
-transition: box-shadow 500ms;
-filter: blur(0px);
+.img-header:hover{
+   transform: translateY(-15px) translateZ(20px);
+   transition: transform 1s;
 }
+
 
 @media screen and (min-width:800px) {
     .Header--div {

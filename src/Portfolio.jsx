@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import {GrCaretNext} from 'react-icons/Gr'
 import Mycard from './components/card.jsx'
 import image1 from './assets/portfolio/3d-business-man-and-woman-working-at-the-table.png'
+
 import image2 from './assets/portfolio/3d-business-man-has-an-idea.png'
 import image3 from './assets/portfolio/3d-business-young-woman-working-online.png'
 import image4 from './assets/portfolio/casual-life-3d-side-view-of-young-man-wearing-smart-watch-and-holding-book.png'

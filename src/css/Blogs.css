@@ -3,8 +3,40 @@
     text-align: center;
     background-color: springgreen;
     width: 100vw;
+    padding: 2.8rem;
+    overflow-x: hidden;
+    
 }
 .Blogs > h1{
     font-size: 3rem;
+
+}
+.blogs{
+display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+}
+.Technical , .Science , .Fictional , .Miscellaneous{
+    background-color: #162541;
+    color: springgreen;
+
+    font-family: 'Courier New', Courier, monospace;
+    margin: 1rem;
+padding: 0.8rem;
+font-size: 1rem;
+}
+.blog-card{
+    
+    margin: 1rem auto;
+}
+@media screen and (max-width:800px) {
+    .blogs{
+        display: block;
+        margin-top: 1rem;
+        
+    }
+    
 
 }

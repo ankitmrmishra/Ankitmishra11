@@ -1,0 +1,154 @@
+.contactme{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5rem;
+    background-color: #1f3255;
+    color: #1f3255;
+    width: 100vw;
+}
+.contact-me-tog{
+    display: flex;
+    
+}
+
+.container  {
+    background-color: springgreen;
+    padding: 3rem;
+  
+}
+ .contact-me-section-details{
+   color: springgreen;
+    background-color: #1d3f7d;
+        padding: 3rem;
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       
+ }
+.upperpart-contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: monospace;
+    letter-spacing: 10px;
+}
+.upperpart-contact-me > span{
+    color: rgb(41, 167, 104);
+    letter-spacing: normal;
+}
+.lower-part-contact-me{
+    
+   padding: 4rem;
+   margin: 4rem;
+    display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+
+     
+}
+.lower-part-contact-me , .details-contact-me{
+    color: rgb(41, 167, 104);
+    margin:2rem;
+    font-size: 1.07rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container h1 {
+    text-align: center;
+    font-family: monospace;
+        letter-spacing: 8px;
+}
+.adr{
+    color: springgreen;
+}
+.container a {
+    text-decoration: none;
+    color: steelblue;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    margin: 20px 0;
+    background-color: #1f3255;
+    font-family: monospace;
+    letter-spacing: 8px;
+    font-size: 16px;
+    color: springgreen;
+    
+
+}
+
+.btn:focus {
+    outline: 0;
+    transform: scale(0.98);
+}
+
+.form-control {
+    position: relative;
+    margin: 15px 0 30px;
+    font-family: monospace;
+        font-size: 20px;
+}
+
+.form-control input , textarea{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    width: 110%;
+    display: block;
+    padding: 1rem;
+   color: #1d3f7d;
+    font-size: 16px;
+
+}
+
+.form-control input:focus, textarea:focus ,
+.form-control input:valid {
+    outline: 0;
+    border-bottom-color: lightblue;
+}
+
+.form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.form-control label span {
+    display: inline-block;
+    transition: transform 0.3s ease-in;
+}
+
+.form-control input:focus+label span,
+.form-control input:valid+label span {
+
+    transform: translateY(-30px);
+}
+                   
+
+@media screen and (max-width:800px) {
+    .contactme{
+        overflow-x: hidden;
+        width: 100vw;
+    }
+    .contact-me-tog{
+       
+      
+
+        margin-top: -5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+.contact-me-section-details{
+   
+}
+.container{
+  
+
+}
+}
