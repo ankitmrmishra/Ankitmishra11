@@ -69,16 +69,16 @@ const Imagecarousel = () => {
            <div className="caro">
 
            <Slider {...settings} >
-                 <Mycard  image={image1} projectName="PROJECT 1" Github={data.Github} LiveLink={data.LiveLink}/>
-                <Mycard image={image2} projectName="PROJECT 2" Github={data.Github} LiveLink={data.LiveLink} />
-                <Mycard image={image3} projectName="PROJECT 3" Github={data.Github} LiveLink={data.LiveLink} />
-                <Mycard image={image6} projectName="PROJECT 4" Github={data.Github} LiveLink={data.LiveLink} />
-                <Mycard image={image4} projectName="PROJECT 5" Github={data.Github} LiveLink={data.LiveLink} />
-                 <Mycard image={image1} projectName="PROJECT 6" Github={data.Github} LiveLink={data.LiveLink}/>
-                <Mycard image={image2} projectName="PROJECT 7" Github={data.Github} LiveLink={data.LiveLink} />
-                <Mycard image={image3} projectName="PROJECT 8" Github={data.Github} LiveLink={data.LiveLink} />
+                 <Mycard  image={image1} projectName="Portfolio template" Github="https://github.com/ankitmrmishra/ankitmishra" LiveLink="https://ankitmrmishra.github.io/ankitmishra/" />
+                <Mycard image={image2} projectName="50Day50projects" Github="https://github.com/ankitmrmishra/50day50Project-ankit-mishra"  />
+                <Mycard image={image3} projectName="MOVIE SEARCH" Github="https://github.com/ankitmrmishra/movie-app" LiveLink="https://ankitmrmishra.github.io/movie-app/" />
+                <Mycard image={image6} projectName="Github Profile" Github="https://github.com/ankitmrmishra/github-profile" LiveLink="https://ankitmrmishra.github.io/github-profile/" />
+                <Mycard image={image4} projectName="DRUM KIT" Github="https://github.com/ankitmrmishra/drumkit" LiveLink="https://github.com/ankitmrmishra/drumkit" />
+                 <Mycard image={image1} projectName="Music App" Github="https://github.com/ankitmrmishra/ankit-music" LiveLink="https://ankitmrmishra.github.io/ankit-music/ "  />
+                <Mycard image={image2} projectName="Agency Website" Github="https://github.com/ankitmrmishra/PORTFOLIO" LiveLink="https://ankitmrmishra.github.io/PORTFOLIO/" />
+                {/* <Mycard image={image3} projectName="PROJECT 8" Github={data.Github} LiveLink={data.LiveLink} />
                 <Mycard image={image6} projectName="PROJECT 9" Github={data.Github} LiveLink={data.LiveLink} />
-                <Mycard image={image4} projectName="PROJECT 10" Github={data.Github} LiveLink={data.LiveLink} />
+                <Mycard image={image4} projectName="PROJECT 10" Github={data.Github} LiveLink={data.LiveLink} /> */}
            </Slider>
         </div>
         </div>

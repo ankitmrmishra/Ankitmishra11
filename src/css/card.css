@@ -73,6 +73,14 @@ text-align: center;
     transform: scale(0.9);
     transition: transform 1s;
 }
+.blog-card{
+  
+   height: 32rem;
+   width: 100%;
+}
+.LOREM{
+    padding: 2rem;
+}
 
 @media screen and (max-width:800px) {
     .card{

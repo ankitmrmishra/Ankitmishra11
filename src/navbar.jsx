@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment , useEffect} from "react";
 import { useRef } from 'react';
 import {AiOutlineBars } from 'react-icons/ai';
 import './css/navbar.css'
@@ -9,6 +9,21 @@ import './css/navbar.css'
 
  function Navbar(){
     let refere = useRef();
+   let divRef = useRef(null);
+
+  useEffect(() => {
+    const div = divRef.current;
+
+    const handleClicked = () => {
+      div.classList.toggle("rotate");
+    };
+
+    div.addEventListener("click", handleClicked);
+
+    return () => {
+      div.removeEventListener("click", handleClicked);
+    };
+  }, [divRef]);
     
   function handleClick() {
     
@@ -37,8 +52,10 @@ import './css/navbar.css'
              
         </div>
             
-        
-         <AiOutlineBars className="bars" onClick={handleClick}  />
+        <div className="btns" ref={divRef} >
+<AiOutlineBars className="bars" onClick={handleClick} />
+        </div>
+         
          
         </nav>
        </Fragment>

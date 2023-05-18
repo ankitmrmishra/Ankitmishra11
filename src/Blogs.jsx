@@ -23,42 +23,42 @@ const [viewBlog1 , SetviewBlog1] = useState("viewBlog11");
 </div>
 {viewBlog1 === "viewBlog11" && <div className="blogs Technical--blogs">
 
-<BlogCard image={image1} projectName={"hello"} Hashnode={"www.ank.com"} />
-<BlogCard image={image1} projectName={"hello"} Hashnode={"www.ank.com"} />
-<BlogCard image={image1} projectName={"hello"} Hashnode={"www.ank.com"} />
-<BlogCard image={image1} projectName={"hello"} Hashnode={"www.ank.com"} />
+<BlogCard image={image1} projectName={"PROPS IN REACT JS"} Hashnode={"https://ankitmishra.hashnode.dev/props-in-reactjs"} />
+<BlogCard image={image2} projectName={"JSX IN REACT JS"} Hashnode={"https://ankitmishra.hashnode.dev/all-about-jsx-in-reactjs"} />
+<BlogCard image={image3} projectName={"COMPONENTS IN REACT"} Hashnode={"https://ankitmishra.hashnode.dev/components-the-building-blocks-of-react-js"} />
+<BlogCard image={image1} projectName={"OSI MODEL"} Hashnode={"https://ankitmishra.hashnode.dev/osi-model-in-computer-networking"} />
 
 
 
 </div> }
-{viewBlog1 === "viewBlog12" && <div className="blogs Technical--blogs">
+{viewBlog1 === "viewBlog12" && <div className="blogs science--blogs">
+{/* 
+<BlogCard image={image2} projectName={"hello"} Hashnode={"www.ank.com"} />
+<BlogCard image={image2} projectName={"hello"} Hashnode={"www.ank.com"} />
+<BlogCard image={image2} projectName={"hello"} Hashnode={"www.ank.com"} />
+<BlogCard image={image2} projectName={"hello"} Hashnode={"www.ank.com"} /> */}
 
-<BlogCard image={image2} projectName={"hello"} Hashnode={"www.ank.com"} />
-<BlogCard image={image2} projectName={"hello"} Hashnode={"www.ank.com"} />
-<BlogCard image={image2} projectName={"hello"} Hashnode={"www.ank.com"} />
-<BlogCard image={image2} projectName={"hello"} Hashnode={"www.ank.com"} />
-
-
+<div className='card coming-soon'>COMING SOON</div>
 
 
 </div> }
-{viewBlog1 === "viewBlog13" && <div className="blogs Technical--blogs">
+{viewBlog1 === "viewBlog13" && <div className="blogs fiction--blogs">
 
+{/* <BlogCard image={image3} projectName={"hello"} Hashnode={"www.ank.com"} />
 <BlogCard image={image3} projectName={"hello"} Hashnode={"www.ank.com"} />
 <BlogCard image={image3} projectName={"hello"} Hashnode={"www.ank.com"} />
-<BlogCard image={image3} projectName={"hello"} Hashnode={"www.ank.com"} />
-<BlogCard image={image3} projectName={"hello"} Hashnode={"www.ank.com"} />
-
+<BlogCard image={image3} projectName={"hello"} Hashnode={"www.ank.com"} /> */}
+<div className='card coming-soon'>COMING SOON</div>
 
 </div> }
-{viewBlog1 === "viewBlog14" && <div className="blogs Technical--blogs">
+{viewBlog1 === "viewBlog14" && <div className="blogs miscellaneous--blogs">
+{/* 
+<BlogCard image={image1} projectName={"hello"} Hashnode={"www.ank.com"} />
+<BlogCard image={image1} projectName={"hello"} Hashnode={"www.ank.com"} />
+<BlogCard image={image1} projectName={"hello"} Hashnode={"www.ank.com"} />
+<BlogCard image={image1} projectName={"hello"} Hashnode={"www.ank.com"} /> */}
 
-<BlogCard image={image1} projectName={"hello"} Hashnode={"www.ank.com"} />
-<BlogCard image={image1} projectName={"hello"} Hashnode={"www.ank.com"} />
-<BlogCard image={image1} projectName={"hello"} Hashnode={"www.ank.com"} />
-<BlogCard image={image1} projectName={"hello"} Hashnode={"www.ank.com"} />
-
-
+<div className='card coming-soon'>COMING SOON</div>
 
 </div> }
 

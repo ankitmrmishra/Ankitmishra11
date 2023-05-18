@@ -14,7 +14,7 @@ function blogCard({image , projectName , Hashnode}) {
 >
         <h1 className="LOREM">{projectName}</h1>
        
-         <a href={Hashnode}><SiHashnode/></a>
+         <a href={Hashnode}><SiHashnode /></a>
          
     </div>
     

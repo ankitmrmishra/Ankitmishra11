@@ -26,9 +26,10 @@ export  const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_yct3thq', 'template_ayl0c7h', form.current, '5-LMOJkK5EWs-8oJf')
       .then((result) => {
-          console.log(result.text);
+          alert("SENT SUCCESSFULLY")
+          e.target.reset();
       }, (error) => {
           console.log(error.text);
       });
@@ -78,24 +79,24 @@ export  const ContactUs = () => {
         </div>
   <div className="container">
         <h1>SEND A MESSAGE</h1>
-        <form>
+        <form ref={form} onSubmit={sendEmail}>
             <div className="form-control" >
-                <input type="text" required />
+                <input type="text" required  name="user_name"/>
                 <label>Name</label>
             </div>
             <div className="form-control" >
-                <input type="email" required />
+                <input type="email" required  name="email-user" />
                 <label>Email</label>
             </div>
               <div className="form-control"  >
-                <input type="text" required />
+                <input type="text" required   name="subject"/>
                 <label>Subject</label>
             </div>
             <div className="form-control">
-                <textarea name="" id="" cols="30" rows="4"></textarea>
+                <textarea name="message" id="" cols="30" rows="4"    ></textarea>
             </div>
 
-            <button className="btn">SUBMIT </button>
+            <button className="btn" type='submit'>SUBMIT </button>
         </form>
 
        

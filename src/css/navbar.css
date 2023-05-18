@@ -48,8 +48,14 @@ transition: transform 1s;
 color: aliceblue;
 
 }
+.btns{
+    transition: transform 550ms;
+}
 
-
+.rotate {
+    transform: rotate(-90deg);
+    transition: transform 700ms;
+}
 
 .bars {
    

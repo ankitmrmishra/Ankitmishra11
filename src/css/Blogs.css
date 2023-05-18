@@ -31,6 +31,20 @@ font-size: 1rem;
     
     margin: 1rem auto;
 }
+.science--blogs , .fiction--blogs , .miscellaneous--blogs{
+    color: whitesmoke;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.fiction--blogs{
+    color: blueviolet;
+}
+.miscellaneous--blogs{
+    color: cadetblue;
+}
 @media screen and (max-width:800px) {
     .blogs{
         display: block;
