@@ -31,13 +31,15 @@ margin: 3rem;
     justify-content: space-between;
     
  }
- nav  li{
+  .li-item{
     font-size: 1rem;
     padding: 1rem;
     margin: 1rem;
     list-style: none;
     transition: transform 1s;
     letter-spacing: 5px;
+    text-decoration: none;
+    color: whitesmoke;
  }
 li:hover{
     background-color: #1f3255;
@@ -56,7 +58,9 @@ color: aliceblue;
     transform: rotate(-90deg);
     transition: transform 700ms;
 }
-
+.navlist{
+    z-index: 100;
+}
 .bars {
    
     

@@ -20,7 +20,7 @@ const handleHover = () => {
     </div>
     <div className="project--description"   
 >
-        <h1 className="LOREM">{projectName}</h1>
+        <h1 className="LOREMi">{projectName}</h1>
         <a href={Github}><BsGithub/></a>
          <a href={LiveLink}><BsFileEarmarkCodeFill/></a>
          

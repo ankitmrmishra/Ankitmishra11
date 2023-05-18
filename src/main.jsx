@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
+import { BrowserRouter as Router,  Route, Routes } from 'react-router-dom';
+
 import Navbar from './navbar.jsx'
 import Header from './header.jsx'
 import Portfolio from './Portfolio.jsx'
@@ -15,7 +17,11 @@ import { render } from 'react-dom'
 ReactDOM.createRoot(document.getElementById('root')).render(
   
     <>
-    <Navbar/>
+    
+
+   
+      <Navbar/>
+      
      <Header/>
    <Portfolio/>
    <Skills/>

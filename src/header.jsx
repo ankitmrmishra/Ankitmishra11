@@ -46,7 +46,7 @@ const [text, setText] = useState("ANKIT MISHRA");
   return (
     <>
     
-    <div className='Header--div'>
+    <div className='Header--div' id='home'>
 
 <div className="paragraph--div">
     <span className='hey'>Hey!</span> <br></br>

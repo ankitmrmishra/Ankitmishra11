@@ -52,7 +52,7 @@ function Skills() {
     };
 
    return ( 
-    <div className='skills'>
+    <div className='skills'id='#skills'>
         <h1>SKILL SETS</h1>
         <span className='skills-span'>Let me introduce you with my weapons</span>
        

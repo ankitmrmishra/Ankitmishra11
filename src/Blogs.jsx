@@ -10,7 +10,7 @@ const [viewBlog1 , SetviewBlog1] = useState("viewBlog11");
 
 
   return (
-    <div className='Blogs'>
+    <div className='Blogs' id='blogs'>
 
         <h1>BLOGS</h1>
         <span>Here You Will See My LATEST Writings</span>
