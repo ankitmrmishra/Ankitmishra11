@@ -15,6 +15,7 @@ background-color: #f66030;
     justify-content: center;
    padding: 5rem;
    width: 100vw;
+   padding-bottom: 13rem;
 }
 .paragraph--div{
     
@@ -59,10 +60,10 @@ position: absolute;
 }
 
 .myimage{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
-    margin-top: 8rem;
+    margin-top: 1rem;
     padding: 1rem;
     /* width: 90vw; */
     height: 100vh;
